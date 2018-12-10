@@ -1,0 +1,7 @@
+d8_systems_check.systems_check:
+  path: '/drupal/systems_check'
+  defaults:
+    _controller: '\Drupal\d8_systems_check\Controller\SystemsCheck::check'
+    _title: 'Systems Check'
+  requirements:
+    _permission: 'access content'
